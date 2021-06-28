@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #3C91FA;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quote-box{
+    padding: 3rem;
+    background: #fff;
+    width: 40rem;
+    margin: 10rem auto;
+    border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.quote-text{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.autor-name {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.social-t > a {
+margin-right: .5rem;
+/*background: red;*/
+padding: .3rem .5rem;
+cursor: pointer;
+}
+
+.social-t > a:hover {
+    opacity: 0.9;
+}
+
+.social-t > a img {
+    width: 3rem;
+
+}
+
+.new-quote {
+    background: #3C91FA;
+    border: none;
+    color: #fff;
+    padding: .7rem 1rem;
+    font-size: .9rem;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+}
+
+.new-quote:hover {
+    opacity: 0.9;
 }
