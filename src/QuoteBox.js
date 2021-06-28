@@ -14,7 +14,7 @@ const QuoteBox = () => {
     const getQuote = () => {
         
         let url = `https://github.com/radhamesc-capellan/Quote_Machine/blob/master/src/quotes.json`;
-        fetch('./quotes.json')
+        fetch(data)
         .then(res => res.json())
         .then(data => {
             let dataQuotes = data.quotes;
