@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import twitterLogo from './twitter-logo.svg';
 //import DataJSON from './quotes.json';
-import App from './App';
+//import App from './App';
 
 const QuoteBox = () => {
     const [quote, setQuote] = useState('');
